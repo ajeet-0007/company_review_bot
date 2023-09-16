@@ -1,0 +1,27 @@
+{
+    "name": "complex-dialog-bot",
+    "version": "1.0.0",
+    "description": "Demonstrate the core capabilities of the Microsoft Bot Framework",
+    "author": "Generated using Microsoft Bot Builder Yeoman generator v4.17.0",
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon ./index.js",
+        "watch": "nodemon ./index.js",
+        "lint": "eslint .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com"
+    },
+    "dependencies": {
+        "botbuilder": "~4.15.0",
+        "botbuilder-dialogs": "^4.20.0",
+        "dotenv": "~8.2.0",
+        "restify": "^11.1.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
+}
